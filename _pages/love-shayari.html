@@ -1,0 +1,13 @@
+---
+layout: page
+title:  "Love Shayari in Hindi"
+permalink: /love-shayari/
+---
+<ul>
+    {% for post in site.categories.Love-Shayari reversed %}
+      <li class="post_list">
+        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
+      </li>
+    {% endfor %}
+</ul>
+    

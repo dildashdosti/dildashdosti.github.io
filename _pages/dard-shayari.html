@@ -1,0 +1,12 @@
+---
+layout: page
+title:  "Dard Shayari in Hindi"
+permalink: /dard-shayari/
+---
+<ul>
+    {% for post in site.categories.Dard-Shayari reversed %}
+      <li class="post_list">
+        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
+      </li>
+    {% endfor %}
+</ul>
