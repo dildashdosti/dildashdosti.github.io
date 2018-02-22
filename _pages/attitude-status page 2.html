@@ -1,13 +1,11 @@
 ---
 layout: page
-redirect_from: 
-- /uttarayan-status/2.html
-- /uttarayan-status/1.html
-title:  "Uttarayan Makar Sankranti Wishes and Status"
-permalink: /uttarayan-status/
+title:  "Attitude Status in Hindi Page 1"
+permalink: /attitude-status/1.html
+prevnav: attitude-status/
 ---
 <ul>
-    {% for post in site.categories.Uttarayan-Status limit:20 %}
+    {% for post in site.categories.Attitude-Status limit:20 offset:20 %}
       <li class="post_list">
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 		<p>{{ post.content }}</p>

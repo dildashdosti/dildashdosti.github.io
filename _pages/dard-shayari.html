@@ -1,13 +1,22 @@
 ---
 layout: page
+redirect_from: 
+- /dard-shayari/8.html
+- /dard-shayari/7.html
+- /dard-shayari/6.html
+- /dard-shayari/5.html
+- /dard-shayari/4.html
+- /dard-shayari/3.html
+- /dard-shayari/2.html
+- /dard-shayari/1.html
 title:  "Dard Shayari in Hindi"
 permalink: /dard-shayari/
-nextnav: tere-asmat-ko-me-apni-taabir-bana-lunga.html
 ---
 <ul>
-    {% for post in site.categories.Dard-Shayari reversed %}
+    {% for post in site.categories.Dard-Shayari limit:20 %}
       <li class="post_list">
-        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
       </li>
     {% endfor %}
 </ul>

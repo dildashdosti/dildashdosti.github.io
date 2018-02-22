@@ -1,13 +1,17 @@
 ---
 layout: page
+redirect_from: 
+- /friendship-status/3.html
+- /friendship-status/2.html
+- /friendship-status/1.html
 title:  "Friendship Status in Hindi"
 permalink: /friendship-status/
-nextnav: has-kar-chal-dunga-aag-ke-angaro-par-bhi.html
 ---
 <ul>
-    {% for post in site.categories.Friendship-Status reversed %}
+    {% for post in site.categories.Friendship-Status limit:20 %}
       <li class="post_list">
-        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
+       <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
       </li>
     {% endfor %}
 </ul>

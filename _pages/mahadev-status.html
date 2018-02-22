@@ -1,0 +1,15 @@
+---
+layout: page
+redirect_from:  /mahashivratri-status/
+title:  "Mahadev Status in Hindi"
+permalink: /mahadev-status/
+---
+<ul>
+    {% for post in site.categories.Mahadev-Status limit:20 %}
+      <li class="post_list">
+         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
+      </li>
+    {% endfor %}
+</ul>
+    

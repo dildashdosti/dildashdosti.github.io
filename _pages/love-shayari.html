@@ -1,14 +1,31 @@
 ---
 layout: page
+redirect_from: 
+- /love-shayari/16.html
+- /love-shayari/15.html
+- /love-shayari/14.html
+- /love-shayari/13.html
+- /love-shayari/12.html
+- /love-shayari/11.html
+- /love-shayari/10.html
+- /love-shayari/9.html
+- /love-shayari/8.html
+- /love-shayari/7.html
+- /love-shayari/6.html
+- /love-shayari/5.html
+- /love-shayari/4.html
+- /love-shayari/3.html
+- /love-shayari/2.html
+- /love-shayari/1.html
 title:  "Love Shayari in Hindi"
 permalink: /love-shayari/
-nextnav: tum-mere-dil-me-hon.html
 ---
 <ul>
-    {% for post in site.categories.Love-Shayari reversed %}
+    {% for post in site.categories.Love-Shayari limit:20 %}
       <li class="post_list">
-        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
-      </li>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
+	</li>
     {% endfor %}
 </ul>
     

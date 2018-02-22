@@ -1,0 +1,14 @@
+---
+layout: page
+title:  "Teacher Student Jokes in Hindi Page 1"
+permalink: /teacher-student-jokes/1.html
+prevnav: teacher-student-jokes/
+---
+<ul>
+    {% for post in site.categories.Teacher-Student-Jokes limit:20 offset:20 %}
+      <li class="post_list">
+	     <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
+      </li>
+    {% endfor %}
+</ul>

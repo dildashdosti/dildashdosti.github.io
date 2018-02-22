@@ -1,13 +1,38 @@
 ---
 layout: page
+redirect_from: 
+- /attitude-status/24.html
+- /attitude-status/23.html
+- /attitude-status/22.html
+- /attitude-status/21.html
+- /attitude-status/20.html
+- /attitude-status/19.html
+- /attitude-status/18.html
+- /attitude-status/17.html
+- /attitude-status/16.html
+- /attitude-status/15.html
+- /attitude-status/14.html
+- /attitude-status/13.html
+- /attitude-status/12.html
+- /attitude-status/11.html
+- /attitude-status/10.html
+- /attitude-status/9.html
+- /attitude-status/8.html
+- /attitude-status/7.html
+- /attitude-status/6.html
+- /attitude-status/5.html
+- /attitude-status/4.html
+- /attitude-status/3.html
+- /attitude-status/2.html
 title:  "Attitude Status in Hindi"
 permalink: /attitude-status/
-nextnav: charche-to-sarifo-ke-hotey-hai.html
+nextnav: attitude-status/1.html
 ---
 <ul>
-    {% for post in site.categories.Attitude-Status reversed %}
+    {% for post in site.categories.Attitude-Status limit:20 %}
       <li class="post_list">
-        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
       </li>
     {% endfor %}
 </ul>

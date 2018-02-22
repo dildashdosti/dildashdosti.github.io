@@ -1,12 +1,23 @@
 ---
 layout: page
+redirect_from: 
+- /sad-status/9.html
+- /sad-status/8.html
+- /sad-status/7.html
+- /sad-status/6.html
+- /sad-status/5.html
+- /sad-status/4.html
+- /sad-status/3.html
+- /sad-status/2.html
+- /sad-status/1.html
 title:  "Sad Status in Hindi"
 permalink: /sad-status/
 ---
 <ul>
-    {% for post in site.categories.Sad-Status reversed %}
+    {% for post in site.categories.Sad-Status limit:20 %}
       <li class="post_list">
-        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
+	    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
       </li>
     {% endfor %}
 </ul>

@@ -1,12 +1,39 @@
 ---
 layout: page
+redirect_from: 
+- /teacher-student-jokes/25.html
+- /teacher-student-jokes/24.html
+- /teacher-student-jokes/23.html
+- /teacher-student-jokes/22.html
+- /teacher-student-jokes/21.html
+- /teacher-student-jokes/20.html
+- /teacher-student-jokes/19.html
+- /teacher-student-jokes/18.html
+- /teacher-student-jokes/17.html
+- /teacher-student-jokes/16.html
+- /teacher-student-jokes/15.html
+- /teacher-student-jokes/14.html
+- /teacher-student-jokes/13.html
+- /teacher-student-jokes/12.html
+- /teacher-student-jokes/11.html
+- /teacher-student-jokes/10.html
+- /teacher-student-jokes/9.html
+- /teacher-student-jokes/8.html
+- /teacher-student-jokes/7.html
+- /teacher-student-jokes/6.html
+- /teacher-student-jokes/5.html
+- /teacher-student-jokes/4.html
+- /teacher-student-jokes/3.html
+- /teacher-student-jokes/2.html
 title:  "Teacher Student Jokes in Hindi"
 permalink: /teacher-student-jokes/
+nextnav: teacher-student-jokes/1.html
 ---
 <ul>
-    {% for post in site.categories.Teacher-Student-Jokes reversed %}
+    {% for post in site.categories.Teacher-Student-Jokes limit:20 %}
       <li class="post_list">
-        <a style="color:#fff;" href="{{ post.url | prepend: site.baseurl }}">{{ post.slug}}</a>
+	     <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
       </li>
     {% endfor %}
 </ul>
