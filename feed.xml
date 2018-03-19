@@ -13,7 +13,7 @@ layout: null
     {% for post in site.posts limit:50 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description><![CDATA[{{ post.content }}]]></description>
+        <description><![CDATA[{{ post.content | xml_escape }}]]></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{% if post.author %}{{ post.author }}{% else %}Admin{% endif %}</link>
       </item>
