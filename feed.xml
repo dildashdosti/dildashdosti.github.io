@@ -10,13 +10,13 @@ layout: null
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    {% for post in site.posts limit:50 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description><![CDATA[{{ post.content }}]]></description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{% if post.author %}{{ post.author }}{% else %}Admin{% endif %}</link>
+        <title>Update Our app</title>
+        <description><![CDATA[
+<blockquote> <p>क्षमा करे हमें, काफी कुस दिनों से हम लगातार आपको अपडेट दे रहे है, लेकिन ये फाइनल अपडेट होगा, इस अप्प में आप, हमारे सब स्टेटस, शायरी और जोक्स केटेगरी वाइज देख सकते हे। प्लेस्टोर या ग्रीड मेनू (टॉप राइट साइड) में जाके अभी हमारी अप्प अपडेट कीजिये। </p> </blockquote>
+]]></description>
+        <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+        <link>Admin</link>
       </item>
-    {% endfor %}
   </channel>
 </rss>
