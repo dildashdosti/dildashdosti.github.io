@@ -11,7 +11,7 @@ If you choose to use my Service, then you agree to the collection and use of inf
 
 The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Daily New Hindi Status unless otherwise defined in this Privacy Policy.
 
-Information Collection and Use
+<h2>Information Collection and Use</h2>
 
 For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
 
@@ -19,10 +19,11 @@ The app does use third party services that may collect information used to ident
 
 Link to privacy policy of third party service providers used by the app
 
-Google Play Services
-AdMob
-Firebase Analytics
-Log Data
+<a href="https://www.google.com/policies/privacy/" rel="nofollow" target="_blank">Google Play Services</a>
+<a href="https://support.google.com/admob/answer/6128543?hl=en" rel="nofollow" target="_blank">AdMob</a>
+<a href="https://firebase.google.com/policies/analytics" rel="nofollow" target="_blank">Firebase Analytics</a>
+
+<h2>Log Data</h2>
 
 I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
 
