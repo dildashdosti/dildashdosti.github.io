@@ -61,4 +61,4 @@ I may update our Privacy Policy from time to time. Thus, you are advised to revi
 
 <h2>Contact Us</h2>
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to <a href="https://docs.google.com/forms/u/1/d/1d2QtE-ncHPGYjhPksOPFlVCph6dDAcdj7JaUok5kL_E/" rel="nofollow" target="_blank">contact me</a>.
