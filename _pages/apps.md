@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title:  Install Daily New Hindi Status App
 permalink: apps/
 ---
