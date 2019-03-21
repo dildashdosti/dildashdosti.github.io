@@ -1,0 +1,16 @@
+---
+layout: page
+title:  "Mahadev Status in Hindi Page 3"
+permalink: /mahadev-status/3/
+prevnav: mahadev-status/2/
+---
+<p>यह तीसरा पेज हे महादेव(Mahadev) और महाकाल(महाकाल) स्टेटस के लिए। </p>
+<ul>
+    {% for post in site.categories.Mahadev-Status limit:20 offset:40 %}
+      <li class="post_list">
+         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
+      </li>
+    {% endfor %}
+</ul>
+    
