@@ -10,7 +10,6 @@ permalink: apps/
 <a target="_blank" href="market://details?id=in.mdsfeed"><img style="max-width:100%;display:block;margin:auto;vertical-align:middle" src="/myApp1.png" alt="Daily New Hindi Status App"/></a><br/>
 <a target="_blank" href="market://details?id=in.mdsfeed"><img style="max-width:100%;display:block;margin:auto;vertical-align:middle" src="/myApp2.png" alt="Daily New Hindi Status App"/></a>
 
-1) अगर आप मोबाइल से हो तो इस लिंक पर <a target="_blank" href="market://details?id=in.mdsfeed">क्लिक करे</a><br/>
-
-2) अगर ऊपर की लिंक काम ना करे तो यहाँ <a target="_blank" href="https://play.google.com/store/apps/details?id=in.mdsfeed">क्लिक करो</a>
+<a target="_blank" href="market://details?id=in.mdsfeed">Click Here to Install</a><br/><p>or</p>
+<a target="_blank" href="https://play.google.com/store/apps/details?id=in.mdsfeed">Click Here to visit play store</a>
 </div>
