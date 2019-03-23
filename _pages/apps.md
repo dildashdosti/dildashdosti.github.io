@@ -10,6 +10,6 @@ permalink: apps/
 <a target="_blank" href="market://details?id=in.mdsfeed"><img style="max-width:100%;display:block;margin:auto;vertical-align:middle" src="/myApp1.png" alt="Daily New Hindi Status App"/></a><br/>
 <a target="_blank" href="market://details?id=in.mdsfeed"><img style="max-width:100%;display:block;margin:auto;vertical-align:middle" src="/myApp2.png" alt="Daily New Hindi Status App"/></a>
 
-<center<a target="_blank" href="market://details?id=in.mdsfeed">Click Here to Install</a><br/>or<br/>
+<center><a target="_blank" href="market://details?id=in.mdsfeed">Click Here to Install</a><br/>or<br/>
 <a target="_blank" href="https://play.google.com/store/apps/details?id=in.mdsfeed">Click Here to visit play store</a></center>
 </div>
