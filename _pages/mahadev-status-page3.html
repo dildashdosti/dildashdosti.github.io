@@ -6,7 +6,8 @@ prevnav: mahadev-status/2/
 ---
 <p>यह तीसरा पेज हे महादेव(Mahadev) और महाकाल(महाकाल) स्टेटस के लिए। </p>
 <ul>
-    {% for post in site.categories.Mahadev-Status reversed limit:20 %}
+    {% assign sorted-posts = site.categories.Mahadev-Status | reverse %}
+    {% for post in sorted-posts  limit:20 offset:40 %}
       <li class="post_list">
          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 		<p>{{ post.content }}</p>
