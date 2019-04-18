@@ -1,0 +1,14 @@
+---
+layout: page
+title:  "Pubg Status in Hindi"
+permalink: /pubg-status/
+---
+<p>हमारे भारत में pubg गेम बहुत ही प्रचलित हो गया हे, तो इसके लिए हमने ये नयी pubg status की केटेगरी डाली हे अपनी साइट में, होप आपको पसंद आएगी। </p>
+<ul>
+    {% for post in site.categories.Pagli-Status limit:20 %}
+      <li class="post_list">
+         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
+      </li>
+    {% endfor %}
+</ul>
