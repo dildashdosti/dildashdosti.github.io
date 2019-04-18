@@ -1,0 +1,15 @@
+---
+layout: page
+title:  "Indian Army Status in Hindi: Page 2"
+permalink: /indian-army-status/2/
+prevnav: : indian-army-status/
+---
+<p>यह दूसरा पेज हे Indian army status के लिए। </p>
+<ul>
+    {% for post in site.categories.Indian-Army-Status limit:20 offset:20 %}
+      <li class="post_list">
+	    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<p>{{ post.content }}</p>
+      </li>
+    {% endfor %}
+</ul>
