@@ -11,8 +11,8 @@ nextnav: mahadev-status/2/
 
 <p>यहाँ पर आप सबसे बढ़िया महाकाल(Mahakal) या महादेव(Mahadev) के स्टेटस(status) पढ़ सकते हे। </p>
 <ul>
-    {% assign sorted-posts = site.categories.Mahadev-Status | reverse %}
-    {% for post in sorted-posts  limit:20 %}
+	
+ {% for post in site.categories.Mahadev-Status limit:20 %}
       <li class="post_list">
          <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 		<p>{{ post.content }}</p>
