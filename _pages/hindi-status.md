@@ -10,4 +10,6 @@ permalink: hindi-status/
 		<li><a href="/sad-status/">Sad Status</a></li>
 		<li><a href="/friendship-status/">Friendship Status</a></li>
 		<li><a href="/mahadev-status/">Mahadev Status</a></li>
+		<li><a href="/indian-army-status/">Indian Army Status</a></li>
+		<li><a href="/pubg-status/">Pubg Status</a></li>
 </ul>
