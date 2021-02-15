@@ -1,12 +1,14 @@
 ---
 layout: page
+redirect_from: 
+- /love-status/2/
+- /love-status/3/
 title:  "Love Status in Hindi"
 permalink: /love-status/
-nextnav: love-status/2/
 ---
 <p>हेलो मेरे प्यारे दोस्तों, यहाँ पर आप सबसे बढ़िया लव स्टेटस(Love Status) पढ़ सकते हो, हम कोशिश करेंगे के आपको ये लव स्टेटस हररोज नए नए मिले, जिस तरह दूसरे केटेगरी के स्टेटस भी आपको हररोज मिलते हे। </p>
 <ul>
-    {% for post in site.categories.Love-Status limit:20 %}
+    {% for post in site.categories.Love-Status %}
       <li class="post_list">
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 		<p>{{ post.content }}</p>
