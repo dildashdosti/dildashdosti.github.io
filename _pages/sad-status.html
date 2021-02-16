@@ -10,12 +10,14 @@ redirect_from:
 - /sad-status/3.html
 - /sad-status/2.html
 - /sad-status/1.html
+- /sad-status/2/
+- /sad-status/3/
 title:  "Sad Status in Hindi"
 permalink: /sad-status/
 nextnav: sad-status/2/
 ---
 <ul>
-    {% for post in site.categories.Sad-Status limit:20 %}
+    {% for post in site.categories.Sad-Status %}
       <li class="post_list">
 	    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 		<p>{{ post.content }}</p>
